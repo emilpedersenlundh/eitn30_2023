@@ -1,0 +1,9 @@
+# Virtual environments
+.env
+env
+.venv
+venv
+
+# RF24 related files
+RF24/
+rf24libs/
