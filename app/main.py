@@ -2,6 +2,7 @@
 
 from app.radio.radio import Radio
 from app.server.server import Server
+from app.utilities import define_mode
 
 
 def main():

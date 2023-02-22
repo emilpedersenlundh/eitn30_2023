@@ -33,9 +33,8 @@ def fragment(data) -> list:
     return fragmented.tolist()
 
 
-def mode(userinput: str = ""):
+def define_mode(userinput: str = ""):
     """Prompts the user for their desired radio mode. If invalid: returns mode="NODE" """
-    mode = ""
     if userinput == "BASE" or userinput == "NODE":
         mode = userinput
     else:
