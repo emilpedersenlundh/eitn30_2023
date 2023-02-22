@@ -3,7 +3,7 @@
 import numpy as np
 
 
-# Data handling
+# TODO: Simplify, fix, and write tests for this function
 def fragment(data) -> list:
     """
     Chunk size < 32 to have space for an id byte when sending
