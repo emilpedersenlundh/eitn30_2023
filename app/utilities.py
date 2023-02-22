@@ -40,7 +40,7 @@ def define_mode(userinput: str = ""):
     else:
         print("No mode specified, defaulting to NODE..")
         mode = "NODE"
-    print("Role = {}".format(mode))
+    print(f"Role = {mode}")
     return mode
 
 
@@ -51,5 +51,5 @@ def status(parameters: dict[str, str]):
     """
     message = ""
     for key in parameters:
-        message += "{}: {}| ".format(key, parameters[key])
+        message += f"{key}: {parameters[key]}| "
     print(message, end="\r")
